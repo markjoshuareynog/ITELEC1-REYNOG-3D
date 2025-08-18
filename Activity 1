@@ -1,0 +1,26 @@
+ import java.util.Scanner;
+
+public class Activity1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a, b;
+        System.out.print("Enter first number: ");
+        a = sc.nextInt();
+        System.out.print("Enter second number: ");
+        b = sc.nextInt();
+
+        if (a > b) {
+            System.out.println("First is bigger");
+            System.out.println(a - b);
+        } else if (b > a) {
+            System.out.println("Second is bigger");
+            System.out.println(b - a);
+        } else {
+            System.out.println("They are equal");
+            System.out.println(a + b);
+        }
+
+        sc.close();
+    }
+}
