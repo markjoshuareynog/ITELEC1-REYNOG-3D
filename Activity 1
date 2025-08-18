@@ -1,26 +1,16 @@
- import java.util.Scanner;
-
-public class Activity1 {
+class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        int a = 8, b = 5, result = 0;
 
-        int a, b;
-        System.out.print("Enter first number: ");
-        a = sc.nextInt();
-        System.out.print("Enter second number: ");
-        b = sc.nextInt();
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
 
         if (a > b) {
-            System.out.println("First is bigger");
-            System.out.println(a - b);
-        } else if (b > a) {
-            System.out.println("Second is bigger");
-            System.out.println(b - a);
+            result = a - b;
+            System.out.println("Subtraction = " + result);
         } else {
-            System.out.println("They are equal");
-            System.out.println(a + b);
+            result = a + b;
+            System.out.println("Addition = " + result);
         }
-
-        sc.close();
     }
 }
