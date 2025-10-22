@@ -3,15 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
+        android:fontFamily="@font/archivo"
         android:text="Welcome to Android UI"
         android:textAlignment="center"
-        android:textColor="#F44336"
-        android:textSize="25sp" />
+        android:textColor="#3F51B5"
+        android:textSize="30sp" />
 </LinearLayout>
