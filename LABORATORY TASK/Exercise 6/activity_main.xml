@@ -7,7 +7,6 @@
     android:background="#EDE7F6"
     android:padding="24dp">
 
-    <!-- Header -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
