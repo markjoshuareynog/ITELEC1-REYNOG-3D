@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UNIT CONVERTER</string>
+    <string name="app_title">Unit Converter</string>
+    <string name="enter_value_hint">Enter value</string>
+    <string name="convert_button_text">Convert</string>
+    <string name="invalid_input">Invalid input</string>
+    <string name="result_text">Result: %.2f %s</string>
+    <string name="please_select_units">Please select units</string>
+    <string name="select_conversion_type">Select Conversion Type</string>
+    <string name="enter_value_and_units">Enter Value and Units</string>
+    <string name="conversion_result">Conversion Result</string>
+</resources>
